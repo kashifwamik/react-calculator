@@ -1,0 +1,3 @@
+## This is a javascript Calculator for made using REACT JS using vite and the styling done through some vanilla CSS...
+
+DEMO: https://kashifwamik.github.io/Calculator/

@@ -1,0 +1,12 @@
+#display {
+  color: black;
+  width: 95%;
+  height: 20%;
+  margin: 0 2px;
+  font-size: 2rem;
+}
+@media (min-width: 768px) {
+  #display {
+    font-size: 2.7rem;
+  }
+}
