@@ -1,4 +1,5 @@
 body {
+  font-family: "Poppins", sans-serif;
   background-color: skyblue;
   display: flex;
   justify-content: center;
@@ -7,16 +8,42 @@ body {
 }
 
 #calculator {
-  background-color: black;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
   width: 33vw;
   height: 400px;
   padding: 2px;
   text-align: center;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   #calculator {
     width: 90vw;
-    height: 100%;
-    margin: 5px;
+    height: 50vh;
+  }
+
+  #display {
+    font-size: 1.5rem;
+  }
+
+  .buttons {
+    font-size: 18px;
+    padding: 8px;
+  }
+}
+@media (max-width: 768px) {
+  #calculator {
+    width: 50vw;
+    height: 50vh;
+  }
+
+  #display {
+    font-size: 1.8rem;
+  }
+
+  .buttons {
+    font-size: 22px;
+    padding: 10px;
   }
 }
