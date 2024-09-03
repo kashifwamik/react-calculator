@@ -17,7 +17,7 @@ body {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
-@media (max-width: 480px) {
+@media (max-width: 480px) and (min-width: 330px) {
   #calculator {
     width: 90vw;
     height: 50vh;
@@ -32,7 +32,7 @@ body {
     padding: 8px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 480px) {
   #calculator {
     width: 50vw;
     height: 50vh;
@@ -45,5 +45,21 @@ body {
   .buttons {
     font-size: 22px;
     padding: 10px;
+  }
+}
+@media (min-width: 0px) and (max-width: 330px) {
+  #calculator {
+    width: 95vw;
+    height: 40vh;
+    margin: 5vw;
+  }
+
+  #display {
+    font-size: 1.2rem;
+  }
+
+  .buttons {
+    font-size: 16px;
+    padding: 6px;
   }
 }
